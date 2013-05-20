@@ -1,0 +1,30 @@
+/*
+m8slider.css 0.1
+release date: 25 April 2013
+author: toyo - http://dimas.muskay.org/m8slider/
+license: GNU GPLv2
+m8slider needs jquery
+this is a self-explanatory code, please don't hesitate to read
+*/
+
+.m8slider-pa, .m8slider-ma, .m8slider-first, .m8slider-child {
+    overflow: hidden;
+}
+
+.m8slider-pa {
+    position: relative;
+}
+
+.m8slider-ma, .m8slider-first, .m8slider-child {
+    position: absolute;
+}
+
+.m8slider-first, .m8slider-child {
+    left: 0;
+    top: 0;
+    z-index: 11;
+}
+
+.m8slider-first {
+    z-index: 12;
+}

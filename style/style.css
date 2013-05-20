@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* styles */
+
+@font-face{
+    font-family:"Calibri W99 Regular";
+    src:url("../font/calibri-1.eot");
+    src:url("../font/calibri-2.eot#iefix")format("embedded-opentype"),
+        url("../font/calibri-3.woff")format("truetype"),
+        url("../font/calibri-4.svg#svgFontName")format("svg");
+}
+
+body {
+    background-color: #f6f6f6;
+   font-family: "Calibri W99 Regular", sans-serif;
+}
+
+a {
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+@font-face{
+    font-family:"Agency FB W00 Regular";
+    src:url("../font/agency-1.eot");
+    src:url("../font/agency-2.eot#iefix")format("embedded-opentype"),
+        url("../font/agency-3.woff")format("woff"), url("../font/agency-1.ttf")format("truetype"),
+        url("../font/agency-4.svg#svgFontName")format("svg");
+}
+
+.agency {
+    font-family: "Agency FB W00 Regular", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container {
+    margin: 50px auto 0;
+    width: 1000px;
+}
+
+.left {
+    float: left;
+    width: 150px;
+}
+
+.right {
+    float: right;
+    width: 790px;
+}
+
+.nav {
+    border-bottom: 1px solid #000000;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.nav ul {
+    text-align: right;
+}
+
+.nav ul li {
+    border-radius: 10px 10px 0 0;
+    display: inline-block;
+}
+
+.nav ul li:hover, .nav ul li.active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.nav ul li a {
+    display: block;
+    font-size: 12px;
+    padding: 12px 0 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.body {
+    background: #f6f6f6;
+}
+
+.slide-wide {
+    height: 250px;
+    width: 790px;
+}
+
+.slide-narrow {
+    height: 300px;
+    width: 500px;
+}
+
+.title {
+    border-bottom: 1px dotted #999999;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.title ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.communities li {
+    margin: 20px 0;
+}
+
+.sanggar {
+    border-top: 1px dotted #999999;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+.sanggar-name {
+    font-size: 40px;
+    margin: 0 0 50px;
+}
+
+.sanggar-desc {
+    float: left;
+    font-size: 12px;
+    margin-right: 190px;
+    width: 400px;
+}
+
+.sanggar-desc p {
+    line-height: 125%;
+    padding: 10px 0;
+}
+
+.sanggar-meta {
+    float: left;
+    width: 200px;
+}
+
+.sanggar-meta div {
+    margin: 0 0 10px;
+}
+
+.label-ketua {
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.nama-ketua {
+    padding-bottom: 20px;
+}
+
+.phone-ketua, .mail-ketua, .address-ketua {
+    font-size: 10px;
+}
+
+.desc {
+    margin: 40px 0 70px;
+}
+
+.desc h1 {
+    float: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.desc p {
+    float: right;
+    line-height: 125%;
+    margin-bottom: 1em;
+    width: 500px;
+}
+
+.anggota {
+    float: left;
+    min-height: 300px;
+    margin: 0 18px 0 18px;
+    overflow: hidden;
+    width: 170px;
+}
+
+.anggota p {
+    font-size: 13px;
+}
+
+.anggota-first {
+    margin-left: 0;
+}
+
+.anggota-last {
+    margin-right: 0;
+}
+
+.anggota-foto {
+    border-radius: 90px;
+    margin: 60px 0 30px;
+}
+
+.anggota-nama {
+    text-transform: uppercase;
+}
+
+.subhide {
+    margin: 30px 0;
+}
+
+.subhide a {
+    color: #777777;
+    font-size: 30px;
+}
+
+.subhide a:hover {
+    color: #000000;
+}
+
+.dotted {
+    border: 0 none;
+    border-top: 1px dotted #000000;
+}
+
+.footer-1 {
+    background: #f6f6f6 url('../img/wave-1.png') no-repeat center bottom;
+    height: 299px;
+    width: 100%;
+}
+
+.footer-2 {
+    background: #f6f6f6 url('../img/wave-2.png') no-repeat center bottom;
+    height: 239px;
+    width: 100%;
+}
